@@ -1,0 +1,25 @@
+body 
+{
+	background-color: #FCF;
+	color: black;
+}
+.other {
+	color: #F00;
+	text-decoration: none;
+}
+.obrana, .obrana a, .utok .CS, .utok .CS a, #vyber_obrana
+{
+	color: red;
+}
+.utok, .utok a, .obrana .CS, .obrana .CS a, #vyber_utok
+{
+	color: black;
+}
+a
+{
+	color: blue;
+	text-decoration: underline;
+}
+#vyber_utok, #vyber_obrana {
+  background-color: #FCF;
+}

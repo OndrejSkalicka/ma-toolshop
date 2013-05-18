@@ -1,0 +1,111 @@
+
+
+html {font-family:tahoma, arial ce, arial, helvetica ce, helvetica; color:#0080C0; } 
+
+body {font-family:tahoma, arial ce, arial, helvetica ce, helvetica; color:#0080C0; background-color:#EFEFEF; background-image:URL(./background.jpg); background-repeat:no-repeat;}
+
+table {font-family:tahoma, arial ce, arial, helvetica ce, helvetica; color:#0080C0; }
+
+tr {font-family:tahoma, arial ce, arial, helvetica ce, helvetica; color:#0080C0; }
+
+a:hover {text-decoration:none; color:#0080C0; background-color:Silver; }
+
+akey {color:#0080C0; }
+
+form table tr p {background-color: #EFEFEF ; border: 1px solid #0080C0;}
+
+td td {background-color: #EFEFEF;}
+
+akey:hover {color:#0080C0; }
+
+unique {color:gold; }
+
+unique:hover {color:#0080C0; }
+
+jmeno {color:gold; }
+
+.p_soukroma {color:White; background-color:#406040 !important; }
+
+.p_posel, .p_ma_team {color:White; background-color:#800000 !important; }
+
+.odeslana {color:White; background-color:#777700 !important; }
+
+.p_a_verejna {color:White; background-color:#008080 !important; }
+
+.p_a_tajna {color:White; background-color:#804000 !important; }
+
+.p_soukroma td {color:White; background-color:#406040 !important; }
+
+.p_posel td, .p_ma_team td {color:White; background-color:#800000 !important; }
+
+.odeslana td {color:White; background-color:#777700 !important; }
+
+.p_a_verejna td {color:White; background-color:#008080 !important; }
+
+.p_a_tajna td {color:White; background-color:#804000 !important; }
+
+.noeffects {color:#0080C0; }
+
+.noeffects:hover {color:#0080C0; }
+
+input {text-align:Center; color:Black; background-color:Silver; }
+
+select {text-align:Center; color:Black; background-color:Silver; }
+
+textarea {color:Teal; background-color:Silver; -moz-border-radius:5; }
+
+a { color: #0080C0; font-weight: bold; text-decoration: none; }
+
+input.button {color:Black; background-color:Silver; border:Black 2px Outset; }
+
+input.login {color:GOLD; background-color:Black; border:GOLD 1px Solid; }
+
+iframe {color:#0080C0; border:GOLD 1px Solid; }
+
+input.image {color:GOLD; background-color:Black; border:Black 0px Solid; }
+
+select.brown {color:Black; background-color:A39179; }
+
+input.brown {color:Black; background-color:A39179; border:Black 1px Solid; }
+
+input.brown_button {color:Black; background-color:DDDDDD; border:Black 2px Outset; }
+
+a:focus, select:focus, input:focus {color:#0080C0; border:GOLD 2px Solid; }
+
+.c_C, .c_M, .c_B, .c_S, .c_Z, .c_N, .c_F {font-size:10px; border:GREY 1px Solid; }
+
+.c_C {background-color:Black; }
+
+.c_M {background-color:Navy; }
+
+.c_B {color:Black; background-color:#C8C8C8; border:Black 1px Solid; }
+
+.c_S {background-color:Gray; }
+
+.c_Z {background-color:Green; }
+
+.c_F {background-color:#62006B; }
+
+.c_N {border:GREY 1px Solid; }
+
+.dark {color:Black; }
+
+.nastaveni_ali td.poradi {text-align:Right; }
+
+.nastaveni_ali td.online_status {width:15px; }
+
+.nastaveni_ali td.online_status {width:15px; }
+
+.nastaveni_ali td.online_status div {margin-top:2px; margin-bottom:2px; margin-left:2px; margin-right:2px; width:10px; height:10px; border:1px solid; }
+
+.nastaveni_ali td.online_status div.on {background-color:Green; }
+
+.nastaveni_ali td.online_status div.off {background-color:Red; }
+
+.nastaveni_ali td.online_status div.grey {background-color:#666666; }
+
+.little_warning {font-size:10px; color:Red; }
+
+.warning {font-size:12px; color:Red; }
+
+.big_warning {font-size:15px; color:Red; }

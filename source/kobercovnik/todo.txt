@@ -1,0 +1,16 @@
+x Takze urcite by v zahlavi kazdeho tepichu melo byt ID provi na kterou se bude utocit.
+x Chybi tam cas od kdy do kdy je koberec platny, kdy vyprsi CSko a pod.
+Nebylo by spatne kdyby to po te co se prihlasi aspon dva strelci poslalo e-mail vypisovateli.
+x Dale by se me zdalo dobre udelat tu tabulku zkracenou, nejlepe asi na
+x Kdo vypsal
+x na koho vypsal
+x rozloha cile
+x penize cile
+x mana cile
+cas vypsani nebo vyprseni CSka
+x a tlacitko na rozbaleni vsech podrobnosti
+automaticka expirace
+
+featury:
+- seznam CSek ma staticke casy
+- javascript jeste nefubguje tak jak ma

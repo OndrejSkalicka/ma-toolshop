@@ -1,0 +1,59 @@
+<html>
+<head>
+  <title>MA rekrut help</title>
+  <LINK REL='STYLESHEET' TYPE='text/css' HREF='../style.css'>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+</head>
+<body>
+	<center><h1>HELP</h1></center>
+	<b>Několik důležitých bodů:</b>
+	<ul>
+		<li>Rekrut je ve fázi betatestu! Jakékoli chybi mi hlašte třeba MAštou nebo tak plz.</li>
+		<li>Zatím nejsou doplněny ceny jednotek, pouze jejich upkeep (a ani za ten nemůžu dát ruku do ohně), takže výsledky nejsou tak přesné jak by mohli být</li>
+		<li>V kouzlech mam zatím také dost kusé informace, takže mi plz chybky napiště ;-)</li>
+	</ul>
+	<b>Ovládání</b><br>
+	<br>
+	<ul>
+		<li><strong>Automat:</strong>
+		<ul>
+			<li>Zatím pouze hospodaření. Funguje klasickým systémem CTRL+A, CTRL+C, CTRL+V ze stránky hospodaření. </li>
+		</ul><br>
+		
+		<li><strong>Manuál:</strong></li>
+		<ul>
+			<li><strong>HOSPODAŘENÍ: </strong>Vyplňte ta pole, která chcete změnit. Můžete vyplnit několik, ani jedno nebo všechny.<br><br></li>
+			<li><strong>KOUZLA:</strong> Zadávejte ve formátu "jmeno|vytrenovanost|TU_do_dokonceni". TU_do_dokonceni je nepovinný parametr a můžete ho vynechat, v tom případně se použij výchozí doba sesílání. Pokud vynecháte i druhý pamater, kouzlo se bude kouzlit na 100%. Můžete před to ještě napsat počet, takže např. "3x ska|76.3|15" zakouzlí 3x po sobě Láska na 76%, která se každá bude kouzlit 15 TU. Kouzla nestojí manu.<br>
+			<br>
+			Podporovaná kouzla:
+			<ul>
+				<li>Koncentrace, 200k, 8 TU, přidá až 100% z aktuální many</li>
+				<li>Láska, 600k, 15 TU, přidá až 4 000 * SK zlata</li>
+				<li>Poklad, 800k, 30TU, přidá až 15 000 * SK zlata</li>
+				<li>Elixír, 800k, 15 TU, přidá až 100% chybějící populace</li>
+				<li>Štěstí, 400k, 15 TU, přidá až 4 TU (neimplementováno, irelevantní) a až 30% z aktuální many</li>
+				<li>Populační exploze, ???, 15 TU, přidá až 4 000 * SK zlata a až 100% chybějící populace</li>
+				<li>Odinův zpěv, 600k, 30 TU, přidá až 12 000 * SK zlata a až 100% chybějící populace</li>
+			</ul><br>
+			</li>
+			<li><strong>REKRUT:</strong> Zadávejte ve formátu: 
+			<ul>
+			Tady je to trochu složitější. Základní formát je "jmeno?rekrut?hranice". Podle toho, co je otazník, tak se nastavují hodnoty:
+				<li>"?" je "|": pole rekrut udává počet jednotek za TU, pole hranice celkový počet jednotek, který chcete kroutit</li>
+				<li>"?" je "#": pole rekrut udává síla jednotek za TU, pole hranice celkovou sílu jednotek, kterou chcete kroutit</li>
+				<li>"?" je "/": pole rekrut udává počet jednotek za TU, pole hranice počet TU, který chcete jednotku rekrutovat</li>
+				<li>Přepínače můžete různě kombinovat, takže např. lich#1000/50 bude rekrutovat liche rychlostí 1k síly za TU (= cca 12.5 liche/TU) po dobu 50TU (takže celkem 50k síly, 625 lichů) , remor/10#10000 bude rekrutovat 10 remošek za TU a to až do doby, kdy narekrutuje 10k síly (=143 remošek) atd.</li>
+			</ul>
+			</li>
+		</ul>
+	</ul>
+	<strong>VÝSLEDKY</strong>
+	<ul>
+		<li>Výsledky můžete mít buď jenom výsledek nebo celý postup rekrutu (přepínač "Zobrazovat postup")</li>
+		<li>Narekrutované jednotky se připojí k těm, které už máte v armádě. Pokud jste již v armádě měli jednotku stejného typu, <span class="zmeneno1_thumb"> bude tato označena touto barvou.</span> Je-li to vaše první, <span class="zmeneno2_thumb">bude mít tuto barvu.</span></li>
+		<li>Jednotky se prozatím neřadí podle síly.</li>
+	</ul>
+	<br>
+	<br>
+</body>
+</html>

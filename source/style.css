@@ -1,0 +1,776 @@
+* {margin:0;padding:0;border:0;}
+
+body {
+	color:silver;
+	font-family:"trebuchet ms", Arial, Verdana, Tahoma, sans-serif;
+	font-size:12px;
+	background: #000 url(images/background.jpg) center repeat-y;
+	}
+
+#stranka {
+	width:1000px;
+	margin:0 auto;
+	text-align:left;
+	}
+
+#hlavicka {
+	width:1000px;
+	height:100px;
+	margin:0px auto;
+	text-align:left;
+	background: #000 url(images/top.jpg) center top no-repeat;
+	}
+
+#login {
+	width:1000px;
+	height:100px;
+	margin:0px auto;
+	text-align:left;
+}
+
+#menu{
+	float: left;
+	width:150px;
+	min-height: 350px
+	}
+
+#obsah {
+	width:828px;
+	float:left;
+	padding:10px;
+	min-height: 350px;
+	}
+.obsah {
+	width:800px;
+	float:left;
+	padding:10px;
+	border: double 1px #CCC;
+	}
+
+#paticka {
+	width:1000px;
+	height:25px;
+	padding-top:5px;
+	clear:both;
+	text-align:center;
+	color:white;
+	background: black;
+	border-top:2px solid #222222;
+	}
+	
+body,td,th {
+	font-size: 12px;
+}
+
+div.polozka {
+	border: 1px solid black;
+/*	float: left;*/
+	margin: 1px;
+	height: 25px;
+	width: 126px;
+	_width: 125px;
+	overflow: hidden;
+	text-align: center;
+	}
+div.polozka a {
+	display: block;
+	margin: 0; padding:0;
+	width:100%; height:100%;
+ 	color: silver;
+	text-decoration: none;
+	background-color: black;
+	cursor: default;
+	}
+div.polozka span {
+	display: block;
+	margin:0; padding: 5px 0 0 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align:center;
+	}
+div.polozka .selected {
+	font-weight: bold;
+	background-color: #888888;
+	color: black;
+	height: 20px;
+}
+div.polozka a:hover, div.polozka a span.selected:hover {
+	background-color: #888888;
+	color: black;
+	}
+div.polozka a:active {
+	color: black;
+}
+
+
+#paticka a {
+	color:white;
+	}
+	
+#paticka a:hover {
+	color:white;
+	text-decoration:none;
+	}
+#omezBlok {
+	position: absolute;
+}
+
+.clear {
+	clear: both;
+	font-size: 0px;
+	height: 0px;
+	width: 0px;
+}
+.svacina {
+	font-size: smaller;
+	margin: 20px 0px 20px 20px;
+}
+.zlata_medajle {
+	background-color: #CCCC00;
+	color: Black;
+	width: 500px;
+}
+.stribrna_medajle {
+	background-color: Silver;
+	color: Black;
+	width: 500px;
+}
+.bronzova_medajle {
+	background-color: #A0522D;
+	width: 500px;
+}
+.icq, .icq img {
+	border: 0px solid;
+}
+
+/* MINI MENU */
+#mini_menu {
+	
+}
+#mini_menu .polozka {
+	border: 1px solid black;
+	float: left;
+	margin: 1px;
+	height: 20px;
+	width: 100px;
+	_width: 99px;
+	}
+#mini_menu .polozka a {
+	display: block;
+	margin: 0; padding:0;
+	width:100%; height:100%;
+ 	color: silver;
+	text-decoration: none;
+	background-color: black;
+	cursor: default;
+	}
+#mini_menu .polozka span {
+	display: block;
+	margin:0; padding: 3px 0 0 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align:center;
+	}
+#mini_menu .polozka .selected {
+	font-weight: bold;
+	background-color: #888888;
+	color: black;
+	height: 17px;
+}
+#mini_menu .polozka a:hover, #mini_menu .polozka a span.selected:hover {
+	background-color: #888888;
+	color: black;
+	}
+#mini_menu .polozka a:active {
+	color: black;
+}
+
+/* ADMIN */
+#admin_left {
+	width: 200px;
+	border-right: 1px solid gray;
+	float: left;
+	font-size: 12px;
+}
+#admin_right {
+	width: 580px;
+	float: left;
+	font-size: 12px;
+}
+/* AUKCE */
+#aukce_left {
+	width: 240px;
+	border-right: 1px solid gray;
+	margin: 0px 20px 0px 0px;
+	float: left;
+}
+#aukce_right {
+	width: 430px;
+	float: left;
+}
+#aukce_bottom {
+	margin: 20px 0px 0px 0px;
+}
+#aukce_bottom .aukce_tabulka {
+	border-collapse: collapse;
+	width: 780px;
+}
+#aukce_bottom .aukce_tabulka td {
+	border: 0px solid silver;
+	/*border-left: 0px solid;
+	border-right: 0px solid;
+	border-bottom: 0px solid;*/
+	padding: 0px 5px;
+	vertical-align: top;
+	text-align: left;
+}
+#aukce_bottom .aukce_tabulka .r, #aukce_bottom .aukce_tabulka .r td {
+	text-align: right;
+}
+#aukce_bottom .aukce_tabulka .c, #aukce_bottom .aukce_tabulka .c td {
+	text-align: center;
+}
+#aukce_bottom .aukce_tabulka .b, #aukce_bottom .aukce_tabulka .b td {
+	font-weight: bold;
+}
+#aukce_bottom .aukce_tabulka td .C, #aukce_bottom .aukce_tabulka td .M, #aukce_bottom .aukce_tabulka td .B, #aukce_bottom .aukce_tabulka td .Z, #aukce_bottom .aukce_tabulka td .S, #aukce_bottom .aukce_tabulka td .N, #aukce_bottom .aukce_tabulka td .F {
+	width: 14px;
+	height: 14px;
+	padding: 0px;
+	margin: 1px;
+	border: 1px solid silver;
+}
+#aukce_bottom .aukce_tabulka td .C {
+	background-color: #333333;
+}
+#aukce_bottom .aukce_tabulka td .M {
+	background-color: #666699;
+}
+#aukce_bottom .aukce_tabulka td .B {
+	background-color: #EEEEEE;
+	color: Black;
+}
+#aukce_bottom .aukce_tabulka td .Z {
+	background-color: Green;
+}
+#aukce_bottom .aukce_tabulka td .S {
+	background-color: Gray;
+}
+#aukce_bottom .aukce_tabulka td .N {
+	background-color: #996633;
+}
+#aukce_bottom .aukce_tabulka td .F {
+	background-color: #62006b;
+}
+#aukce_bottom .aukce_tabulka .top td {
+	text-align: center;
+	padding: 2px 2px;
+}
+#aukce_bottom .aukce_tabulka .top a {
+	display: block;
+	width: 100%;
+	margin-right: 12px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	cursor: hand;
+}
+#aukce_bottom .aukce_tabulka .top a:hover,#aukce_bottom .aukce_tabulka .top .asc,  #aukce_bottom .aukce_tabulka .top .desc:hover {
+	background-image: url(img/sortA.JPG);
+}
+#aukce_bottom .aukce_tabulka .top .desc, #aukce_bottom .aukce_tabulka .top .asc:hover {
+	background-image: url(img/sortD.JPG);
+}
+/* SETTINGS */
+#set_menu {
+	
+}
+#set_left {
+	width: 450px;
+	border-right: 1px solid gray;
+	float: left;
+}
+#set_right {
+	float: left;
+	margin: 0px 0px 0px 30px;
+	font-size: 10px;
+}
+.set_sloupek {
+	float: left;
+	width: 100px;
+}
+.set_polozka {
+	width: 100px;
+/*	height: 15px;*/
+	margin: 0px 0px 10px 0px;
+}
+.set_polozka .selected a {
+	color: #FFFFAA;
+	font-weight: bold;
+}
+#upravy input, #upravy textarea, #upravy select {
+	width: 200px;
+}
+#upravy .half_button {
+	width: 98px;
+}
+#upravy textarea {
+	height: 400px;
+}
+/* REKRUT */
+#rekrut {
+	width: 800px;
+}
+#rekrut input {
+	width: 100px;
+}
+#rekrut .result_table {
+	width: 600px;
+	text-align: right;
+}
+#rekrut .result_table .jmeno {
+	text-align: left;
+}
+#rekrut .nadpis {
+	font-weight: bold;
+}
+#rekrut .left_input {
+	float: left;
+	width: 495px;
+	_width: 478px;
+	margin: 0px 5px 0px 0px;
+}
+#rekrut .left_input textarea, #rekrut .right_input textarea {
+	width: 100%;
+	height: 130px;
+}
+#rekrut .right_input {
+	float: left;
+	width: 300px;
+}
+#rekrut .right_input input {
+	width: 100%;
+}
+#rekrut .zmeneno1 td, .zmeneno1_thumb {
+	color: Maroon;
+}
+#rekrut .zmeneno2 td, .zmeneno2_thumb {
+	color: Green;
+}
+/* CHATT */
+#chatt_box {
+	width: 100%;
+	height: 100px;
+	margin: 0px 0px 10px 0px;
+	float: none;
+}
+.msg {
+	width: 95%;
+	
+	border-top: 1px solid silver ;
+	border-left: 1px solid silver;
+	padding: 3px;
+	margin: 0px 0px 10px 0px;
+}
+/* KOBERCE */
+.koberec {
+	width: 200px;
+	margin: 0px 10px 20px 0px;
+	float: left;
+}
+.koberec .pole {
+	width: 198px;
+	border: 1px solid silver;
+	margin: 0px 0px 1px 0px;
+}
+.koberec .pole .sub { /* odsazene */
+	margin: 0px 0px 0px 10px;
+}
+.koberec .pole a {
+	color: #FFFFAA;
+	font-weight: bold;
+}
+.koberec .pole .pozn {
+	overflow: auto;
+	margin-left: 10px;
+	font-style: italic;
+	font-size: 10px;
+}
+.koberec .pole .strelec {
+	color: red;
+	font-weight: bold;
+}
+.koberec .o_cili {
+	width: 100%;
+}
+.koberec .o_cili td {
+	padding: 0px;
+}
+.koberec .zapis_tepichu input {
+	border: 1px solid black;
+}
+.koberec .zapis_tepichu .submit {
+	width: 35px;
+}
+.novy_koberec input, .novy_koberec textarea, .novy_koberec select {
+	width: 200px;
+}
+.novy_koberec textarea {
+	height: 100px;
+}
+#koberce {
+	
+}
+#koberce .levy {
+	float: left;
+	width: 200px;
+	border-left: solid 1px silver;
+	border-top: solid 1px silver;
+	padding: 2px 0px 0px 2px;
+}
+#koberce .pravy {
+	float: left;
+	width: 500px;
+	border-left: solid 1px silver;
+	border-top: solid 1px silver;
+	padding: 1px 0px 0px 1px;
+	margin: 0px 0px 0px 5px;
+}
+.keberec_sloupec {
+	float: left;
+	width: 212px;
+}
+/* ALI */
+#ali {
+	
+}
+#ali .prvek_seznamu {
+	margin: 5px 0px 0px 0px;
+}
+#ali .nova_ali input, #ali .nova_ali textarea, #ali .nova_ali select {
+	width: 200px;
+}
+
+#ali .levy {
+	float: left;
+	width: 200px;
+	border-left: solid 1px silver;
+	border-top: solid 1px silver;
+	padding: 2px 0px 0px 2px;	
+}
+#ali .pravy {
+	float: left;
+	width: 500px;
+	border-left: solid 1px silver;
+	border-top: solid 1px silver;
+	padding: 1px 0px 0px 1px;
+	margin: 0px 0px 0px 5px;
+}
+.ali_sprava td {
+	border: dashed White;
+	border-width: 1px 0px 0px 0px;
+}
+.ali_sprava {
+	border: dashed White;
+	border-width: 0px 0px 1px 0px;
+}
+/* HLIDKA */
+#hlidka {
+	
+}
+#hlidka input, #hlidka textarea, #nova_ali select {
+	width: 800px;
+}
+#hlidka textarea {
+	height: 250px;
+}
+#hlidka .green {
+	color: Lime;
+	text-align: right;
+	font-weight: bold;
+}
+#hlidka .red_ko {
+	color: Red;
+	text-align: right;
+	font-weight: bold;
+}
+#hlidka .hlidka_off {
+	color: #DAA520;
+	text-align: right;
+	font-weight: bold;
+}
+#hlidka .red_ok {
+	color: #FFA07A;
+	text-align: right;
+	font-weight: bold;
+}
+/* SKUPINY */
+#skupiny {
+	
+}
+#skupiny_left {
+	width: 150px;
+	border-right: 1px solid gray;
+	float: left;
+}
+#skupiny_right {
+	float: left;
+	margin: 0px 0px 0px 30px;
+}
+/* STATISTIKY ALIANCE */
+#stat_ali {
+	
+}
+#stat_ali input, #stat_ali textarea, #nova_ali select {
+	width: 450px;
+}
+#stat_ali textarea {
+	height: 200px;
+}
+/* GLOBAL */
+.error {
+	color: Red;
+	font-size: 12px;
+}
+.right {
+	text-align: right;
+}
+/* SIMUL */
+.simulNewDes {
+	border-collapse: collapse;
+}
+.simulNewDes td {
+	border: 0px solid red;
+	vertical-align: top;
+}
+.detail
+{
+	color: #FFFFAA;
+	text-align: right;
+}
+.obrana, .obrana a, .utok .CS, .utok .CS a, #vyber_obrana
+{
+	color: white;
+}
+.utok, .utok a, .obrana .CS, .obrana .CS a, #vyber_utok
+{
+	color: #FFFFAA;
+}
+
+.CS
+{
+	padding-top: 15px;
+	font-style: italic;
+}
+.info {
+	margin-left: 20px;
+	font-size: 9px;
+	color: red;
+}
+#vyber_utok,  #vyber_obrana{
+	width: 100%;
+	background-color: Black;
+	border: 1px solid silver;
+	float: left;
+}
+.other {
+	color: #FFFFAA;
+	text-decoration: none;
+}
+.other visited {
+	text-decoration: none;
+}
+a
+{
+	color: White;
+	text-decoration: none;
+}
+a visited
+{
+	text-decoration: none;
+}
+.spellcast
+{
+	color: Gray;
+	margin: 0px 0px 40px 0px;
+}
+.news
+{
+	border: 3px dotted #FFFFAA;
+}
+.news td
+{
+	padding: 5px;
+	border-bottom: 1px solid #FFFFAA;
+	vertical-align: top;
+}
+.clear
+{
+	clear: both;
+}
+#uvodni_tabulka
+{
+	border: 1px solid #FFFFAA;
+	width: 100%;
+	padding: 0px;
+}
+#uvodni_tabulka td
+{
+	width: 50%;
+	border: 0px;
+	margin: 0px;
+	text-align: center;
+	vertical-align: top;
+}
+#brany
+{
+	width: 100%;
+}
+#brany td
+{
+	width: 33%;
+	text-align: left;
+}
+#kouzla
+{
+	width: 100%;
+}
+#kouzla td
+{
+	width: 33%;
+	text-align: justify;
+}
+.stats 
+{
+	font-size: smaller;
+}
+fieldset {
+	border: 1px solid #ffcc80;
+	margin-bottom: 20px;
+}
+fieldset legend {
+	background-color: #ffcc80;
+	color: Black;
+}
+.customButton, .button {
+	border: 1px solid #ffcc80;
+}
+#messages_middle {
+  width: 600px;
+  padding: 0px;
+  float: left;
+  overflow: hidden;
+  margin: 0px;
+} 
+#messages_box {
+  width: 596px;
+  margin: 1px;
+  padding: 0px;
+  border: 1px solid #ffcc80;
+}
+#messages_box .left {
+  width: 182px;
+  float: left;
+  text-align: center;
+  padding: 0px;
+}
+#messages_box .left table {
+  margin: auto;
+}
+#messages_box .right {
+  width: 400px;
+  float: left;
+  text-align: left;
+}
+#messages_box .right textarea {
+  width: 400px;
+}
+#messages_whoisonline {
+  width: 220px;
+  padding: 0px;
+  float: left;
+  overflow: hidden;
+  margin: 0px 0px 0px 10px;
+  margin /**/: 0px 0px 0px 5px;
+}
+#banany {
+  margin: 2px;
+  margin-top: 20px;
+  display: none;
+  border: 1px solid white;
+}
+#banany .head {
+  border-bottom: 1px solid white;
+  padding: 2px;
+  text-align: center;
+  font-weight: bold;
+}
+#banany .warning, #spravy .warning {
+  text-align: justify;
+  font-style: italic;
+  color: white;
+  background-color: #ff6666;
+  padding: 2px;
+  margin: 2px;
+}
+#banany button, #banany input {
+  border: 1px solid white;
+}
+#spravy {
+  margin: 2px;
+  margin-top: 20px;
+  display: none;
+  border: 1px solid white;
+}
+#spravy .head {
+  border-bottom: 1px solid white;
+  padding: 2px;
+  text-align: center;
+  font-weight: bold;
+}
+#spravy button, #spravy input {
+  border: 1px solid white;
+}
+#messages_display {
+  margin: 20px 1px 1px 1px;
+  border-collapse: collapse;
+}
+#messages_display td {
+  border: 1px solid #ffcc80;
+  vertical-align: top;
+}
+#messages_display .w_left {
+  width: 150px;
+}
+#messages_display .w_middle {
+  width: 348px;
+}
+#messages_display .w_right {
+  width: 90px;
+  text-align: center;
+}
+#messages_display .w_new td {
+  border: 1px solid red;
+}
+#messages_display .w_left, #messages_display .w_right, #messages_display .w_middle {
+  overflow: hidden;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+a img {
+  border: none;
+}
+
+
+login {
+	background-image:url(images/layout-submit.png);
+	border: 1px solid grey;
+}
+
+#stranka #login form table tr td input {
+	color: white;
+	width: 150px;
+	border: 1px solid white;
+	background-color: #333333;
+	height: 20px;
+}

@@ -1,0 +1,45 @@
+----------------------navod----------------------------
+Zasílání upozornìní na mobil
+Po pøihlá¹ení do schránky vyhledejte v menu Nastavení > Pøeposílání
+POP
+Zde máte mo¾nost nastavit pøeposílání e-mailù doruèených do schránky
+na jinou e-mailovou adresu. Pro pøeposílání na mobilní telefon,
+zadejte e-mailovou adresu va¹eho mobilního telefonu. Její správný
+formát zjistíte u Va¹eho operátora.
+
+Podrobné návody, jak zjistit/nastavit e-mailovou adresu va¹eho
+mobilního telefonu:
+
+O2
+Majitelé O2 mají v¹ichni ji¾ mobilní email vytvoøen a je ve tvaru
+00420vasecislo(at)sms.cz.o2.com tedy napø:.
+00420728123456(at)sms.cz.o2.com
+Ze zprávy, poslané na tento email, pøijde na mobil pouze prvních 60
+znakù vèetnì adresy odesilatele.
+
+T-mobile
+Je nutné se zaregistrovat do t-zones. http://login1.client.tmo.cz/um/cs/login.html
+Jak si nastavit zasílání upozornìní na novì pøíchozí zprávy na mém
+mobilním telefonu:
+1) V MobileBoxu je toto nastavení automaticky aktivní pro v¹echny
+druhy zpráv (e-mailové, faxové, hlasové). Mù¾ete si ho v¹ak 
+podle potøeby zmìnit ("Nastavení" - "Filtry" - "Základní notifikace").
+2) V MobileBoxu Easy si mù¾ete notifikaci nastavit prostøednictvím
+filtrù ("Nastavení" - "Filtry" - "Nový filtr", kde jako "Proveï akci"
+zadáte "po¹li SMS notifikaci na èíslo /Va¹e telefonní èíslo/).
+
+Vodafone
+Nejdøív si zvolte u¾ivatelské jméno (min. 4, max. 32 znakù - musí
+zaèínat písmenem a konèit písmenem nebo èíslicí) napø.: PETR
+Pak zadejte v menu mobilního telefonu "Psát zprávy" tento text:
+EMAILZAP PETR
+Zprávu v této podobì ode¹lete na èíslo 2255
+Po odeslání téhle SMS od nás dostanete potvrzení o úspì¹né registraci
+a mù¾ete jít na vìc! Va¹e nová mobilní e-mailová adresa je:
+petr(at)vodafonemail.cz
+Mù¾e se stát, ¾e si vyberete u¾ivatelské jméno, které u¾ si zvolil
+nìkdo jiný. V tom pøípadì vám po¹leme informativní zprávu a nabídneme
+vám jiné, podobné jméno.
+
+U:fon
+Nezji¹tìno. 

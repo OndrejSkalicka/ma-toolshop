@@ -1,0 +1,120 @@
+body
+{
+  background-color: #dddddd;
+  margin: 0px;
+  padding: 0px;
+  font: 12px Tahoma, Verdana, Arial, sans-serif;
+  text-align: center;
+}
+/* positioning */
+#outer {
+	text-align: center;
+}
+#inner {
+  background-color: white;
+	border-right: 1px solid #678;
+	border-bottom: 1px solid #678;
+	border-left: 1px solid #678;
+	padding: 5px;
+	margin: 0px auto;
+	position: relative;
+	text-align: left;
+	width: 975px; 
+}
+#footer {
+  margin-top: 5px;
+  background-color: white;
+  text-align: center;
+  border-top: 1px solid #678;
+}
+/* common */
+.clear {
+  clear: both;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+}
+a img {
+  border: none;
+}
+form {
+  padding: 0px;
+  margin: 0px;
+  display: inline;
+}
+td {
+  vertical-align: top;
+}
+input {
+  border: 1px solid #678;
+}
+input[type="submit"] {
+  width: 100px;
+}
+input[type="text"], select {
+  width: 155px;
+}
+input[type="file"] {
+  width: 255px;
+}
+input[type="submit"] {
+  background-color: #e6e6e6;
+}
+input[type="submit"]:hover {
+  background-color: #b4c8dc;
+}
+input[type="checkbox"] {
+  border: none;
+}
+input[disabled]:hover {
+  background-color: #e6e6e6;
+}
+.singleVal {
+  width: 20px;
+  border: none;
+  background-color: #eaeaea;
+}
+td, th {
+  border: 1px solid #678;
+  padding: 4px;
+}
+.bordel {
+  border-collapse: collapse;
+}
+.bordel td, .bordel td input{
+  text-align: right;
+}
+.borderless td, .borderless th {
+  border: none;
+}
+.bBottom, .bBottom th, .bBottom td {
+  border-bottom-width: 2px;
+}
+.bLeft, .bLeft th, .bLeft td {
+  border-left-width: 2px;
+}
+.bRight, .bRight th, .bRight td {
+  border-right-width: 2px;
+}
+.bTop, .bTop th, .bTop td {
+  border-top-width: 2px;
+}
+.impTable td {
+  width: 30px; 
+  text-align: center;
+}
+.impTable .x {
+  background-color: #e6e6e6;
+}
+.impTable .green {
+  background-color: #66cc00;
+}
+.impTable .dead {
+  background-color: #ff6666;
+}
+a:visited {
+  color: blue;
+}
+h2 {
+  text-align: center;
+}
